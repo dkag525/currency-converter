@@ -4,7 +4,7 @@ const freecurrencyapi = new Freecurrencyapi(
   "fca_live_VQuCx6K7v9HITeCjsHIWH3wtJOujlUMmfdzccRPu"
 );
 
-export const currenyConverter = async (fromCurrency, toCurrency, units) => {
+export const currencyConverter = async (fromCurrency, toCurrency, units) => {
   const response = await freecurrencyapi.latest({
     base_currency: fromCurrency,
     currencies: toCurrency,
@@ -13,6 +13,6 @@ export const currenyConverter = async (fromCurrency, toCurrency, units) => {
   return multi * units;
 };
 
-// currenyConverter("USD", "INR", 2).then((response) => {
+// currencyConverter("USD", "INR", 2).then((response) => {
 //   console.log("Converted Currency:", response);
 // });
