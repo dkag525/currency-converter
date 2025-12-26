@@ -1,0 +1,26 @@
+{
+  "name": "t-currency-converter",
+  "version": "1.0.0",
+  "description": "An npm package to convert currency",
+  "keywords": [
+    "npm"
+  ],
+  "homepage": "https://github.com/dkag525/currency-converter#readme",
+  "bugs": {
+    "url": "https://github.com/dkag525/currency-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkag525/currency-converter.git"
+  },
+  "license": "Apache-2.0",
+  "author": "deepak",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
